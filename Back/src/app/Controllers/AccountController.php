@@ -1,7 +1,7 @@
 <?php
 namespace App\Controllers;
 
-include_once (dirname(__DIR__).'\..\bootstrap.php');
+include_once ('./../../bootstrap.php');
 use App\Models\Account;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
